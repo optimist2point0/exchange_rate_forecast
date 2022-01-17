@@ -38,7 +38,7 @@ First of all, we needed to get wanted data from the raw one to make a time serie
 Now it was ready to fit some models.
 
 ### Fitting the model
-The latest version of the model SARIMA is 0.0.3 with parameters ()x(). And its forecast compared to real data looks like:
+The latest version of the model SARIMA is 0.0.2 with parameters (0, 1, 0)x(0, 1, 1, 180). And its forecast compared to real data looks like:
 <div align="center">
   <img src="https://github.com/optimist2point0/exchange_rate_forecast/blob/main/Graphs/Predict_v.0.0.3.jpg" />
 </div>
